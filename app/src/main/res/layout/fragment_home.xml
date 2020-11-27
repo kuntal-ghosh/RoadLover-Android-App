@@ -11,17 +11,18 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout4"
-        android:layout_width="match_parent"
-        android:layout_height="284dp"
-        android:layout_marginBottom="10dp"
+        android:layout_width="412dp"
+        android:layout_height="315dp"
+        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/imageView5"
             android:layout_width="match_parent"
-            android:layout_height="282dp"
+            android:layout_height="315dp"
             android:src="@drawable/finance"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -35,7 +36,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
-        android:layout_height="303dp"
+        android:layout_height="270dp"
         android:layout_marginBottom="2dp"
         android:background="@color/iconbackground"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
