@@ -22,7 +22,7 @@ class SplashActivity : Activity() {
         // we used the postDelayed(Runnable, time) method
         // to send a message with a delayed time.
         Handler().postDelayed({
-            val intent = Intent(this, CardListRecyclerView::class.java)
+            val intent = Intent(this, ImageCaptureActivity::class.java)
             startActivity(intent)
             finish()
         }, 3000) // 3000 is the delayed time in milliseconds.
